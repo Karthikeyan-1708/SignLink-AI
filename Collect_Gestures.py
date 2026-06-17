@@ -13,7 +13,7 @@ args=parser.parse_args()
 
 #----------------------------------------Defining Parameters-------------------------------------#
 cap = cv2.VideoCapture(0)
-output_file='Alphabets-3.csv'
+output_file='Alphabets-26.csv'
 count=0
 #------------------------------------------------------------------------------------------------#
 
