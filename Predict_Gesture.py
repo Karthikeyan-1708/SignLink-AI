@@ -14,7 +14,7 @@ cap.set(3,1920)
 cap.set(4,1080)
 #------------------------------------------------------------------------------------------------#
 
-with open("Alphabets_Model-3.pkl", "rb") as f:
+with open("Alphabets_Model-26.pkl", "rb") as f:
     model=pickle.load(f)             #Loading the Model
 
 while cap.isOpened():
