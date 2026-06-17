@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 #----------------------------------------------------------------------------------------------#
 #Reading CSV File
-data = pd.read_csv("Alphabets-3.csv")
+data = pd.read_csv("Alphabets-26.csv")
 X=data.drop('label',axis=1)
 y=data['label'].str.upper()
 
@@ -26,5 +26,5 @@ print(f"Model Accuracy : {accuracy_score(y_test,prediction) * 100:.2f}")
 print(data['label'].value_counts())
 
 #Saving the Model
-with open("Alphabets_Model-3.pkl", 'wb') as f:
+with open("Alphabets_Model-26.pkl", 'wb') as f:
     pickle.dump(model,f)
